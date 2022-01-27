@@ -1,0 +1,44 @@
+#fServices {
+    .container {
+        .row {
+            .fBox {
+                margin-right: 15px;
+                width: 360px;
+                height: 235.6px;
+                background-color: #f9f9fa;
+                border-radius: 4px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                i {
+                    color: #16df7e;
+                    font-size: 36px;
+                    margin-bottom: 30px;
+                }
+
+                h4 {
+                    margin-bottom: 15px;
+
+                    a {
+                        color: #5f687b;
+                        font-weight: 600;
+                        font-size: 18px;
+                        transition: 0.3s;
+                        
+                    }
+
+                    a:hover {
+
+                        color: #16df7e;
+                    }
+                }
+
+                p {
+                    padding-right:  20px;
+                    line-height: 24px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

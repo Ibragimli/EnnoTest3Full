@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnnoTest3", "EnnoTest3\EnnoTest3.csproj", "{A28739B8-8165-44DB-8013-654062C92EDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A28739B8-8165-44DB-8013-654062C92EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A28739B8-8165-44DB-8013-654062C92EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A28739B8-8165-44DB-8013-654062C92EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A28739B8-8165-44DB-8013-654062C92EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54E065DB-30CE-4194-9F39-B6F9608E81A1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,94 @@
+#contact {
+    .container {
+        .contactUp {
+            text-align: center;
+            margin-bottom: 30px;
+
+            h1 {
+                font-size: 32px;
+                font-weight: 700;
+                margin-bottom: 20px;
+                color: #5f687b;
+            }
+
+            p {
+                color: #444444;
+            }
+        }
+
+        .contactDown {
+            .contactLeft {
+
+                border-top: 3px solid #16df7e;
+                border-bottom: 3px solid #16df7e;
+                padding: 30px;
+                background-color: #f9f9fa;
+                width: 450px;
+                margin-right: 20px;
+
+                ul {
+                    li {
+                        ul {
+                            display: flex;
+                            align-items: center;
+
+                            li {
+                                margin-bottom: 20px;
+
+                                h3 {}
+
+                                i {
+                                    font-size: 20px;
+                                    color: #16df7e;
+                                    float: left;
+                                    width: 44px;
+                                    height: 44px;
+                                    background-color: #fff;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    border-radius: 50px;
+                                    margin-right: 20px;
+                                    cursor: pointer;
+                                    transition: all 0.4s;
+                                }
+
+                                i:hover {
+                                    background-color: #16df7e;
+                                    color: white;
+                                }
+
+                                p {}
+                            }
+                        }
+                    }
+                }
+            }
+
+            .contactRight {
+                border-top: 3px solid #16df7e;
+                border-bottom: 3px solid #16df7e;
+                padding: 30px;
+                background-color: #f9f9fa;
+                width: 665px;
+
+                form {
+                    .contactBtn {
+                        text-align: center;
+                        a {
+                            background-color: #16df7e;
+                            border: 0;
+                            padding: 10px 24px;
+                            color: #fff;
+                            transition: 0.4s;
+                            border-radius: 4px;
+                        }
+                        a:hover{
+                            background: #206bfb;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

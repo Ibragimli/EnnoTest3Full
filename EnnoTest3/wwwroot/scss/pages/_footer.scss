@@ -1,0 +1,94 @@
+footer {
+    height: 524.3px;
+    background-color: #f3f4f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    #footerTop {
+        text-align: center;
+        margin-bottom: 30px;
+
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #5f687b;
+        }
+
+        p {
+            font-style: italic;
+            color: #444444;
+            padding: 0px 260px;
+            margin-bottom: 30px;
+        }
+
+        .input-group {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+
+            .form-outline {
+
+                input {
+                    width: 514px;
+                }
+            }
+
+            button {
+                background-color: #16df7e;
+                color: white;
+                transition: all 0.4s;
+            }
+            button:hover{
+                background-color: #206bfb;
+            }
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            li {
+                a {
+                    margin-left: 5px;
+                    i {
+                        font-size: 18px;
+                        color: #5f687b;
+                        line-height: 1;
+                        padding: 8px 0;
+                        margin-right: 4px;
+                        border-radius: 4px;
+                        width: 36px;
+                        height: 36px;
+                        transition: 0.3s;
+                        background-color: #eaecef;
+                        margin-bottom: 80px;
+
+                    }
+                    i:hover{
+                        background-color: #16df7e;
+                        color: white;
+
+                    }
+                }
+            }
+        }
+    }
+    #copyRight{
+        ul{
+            display: flex;
+            justify-content: space-between;
+            li{
+                p{
+                    strong{
+                        font-weight: bold;
+                        color: #444444;
+                    }
+                    a{
+                        color: #16df7e;
+                    }
+                }
+            }
+        }
+    }
+}

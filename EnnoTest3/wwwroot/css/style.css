@@ -1,0 +1,745 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+body a {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+}
+
+body li {
+  list-style: none;
+}
+
+body * {
+  /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+  /* HTML5 display-role reset for older browsers */
+}
+
+body * html,
+body * body,
+body * div,
+body * span,
+body * applet,
+body * object,
+body * iframe,
+body * h1,
+body * h2,
+body * h3,
+body * h4,
+body * h5,
+body * h6,
+body * p,
+body * blockquote,
+body * pre,
+body * a,
+body * abbr,
+body * acronym,
+body * address,
+body * big,
+body * cite,
+body * code,
+body * del,
+body * dfn,
+body * em,
+body * img,
+body * ins,
+body * kbd,
+body * q,
+body * s,
+body * samp,
+body * small,
+body * strike,
+body * strong,
+body * sub,
+body * sup,
+body * tt,
+body * var,
+body * b,
+body * u,
+body * i,
+body * center,
+body * dl,
+body * dt,
+body * dd,
+body * ol,
+body * ul,
+body * li,
+body * fieldset,
+body * form,
+body * label,
+body * legend,
+body * table,
+body * caption,
+body * tbody,
+body * tfoot,
+body * thead,
+body * tr,
+body * th,
+body * td,
+body * article,
+body * aside,
+body * canvas,
+body * details,
+body * embed,
+body * figure,
+body * figcaption,
+body * footer,
+body * header,
+body * hgroup,
+body * menu,
+body * nav,
+body * output,
+body * ruby,
+body * section,
+body * summary,
+body * time,
+body * mark,
+body * audio,
+body * video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body * article,
+body * aside,
+body * details,
+body * figcaption,
+body * figure,
+body * footer,
+body * header,
+body * hgroup,
+body * menu,
+body * nav,
+body * section {
+  display: block;
+}
+
+body * body {
+  line-height: 1;
+}
+
+body * ol,
+body * ul {
+  list-style: none;
+}
+
+body * blockquote,
+body * q {
+  quotes: none;
+}
+
+body * blockquote:before,
+body * blockquote:after,
+body * q:before,
+body * q:after {
+  content: '';
+  content: none;
+}
+
+body * table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body * * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+footer {
+  height: 524.3px;
+  background-color: #f3f4f6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer #footerTop {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+footer #footerTop h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #5f687b;
+}
+
+footer #footerTop p {
+  font-style: italic;
+  color: #444444;
+  padding: 0px 260px;
+  margin-bottom: 30px;
+}
+
+footer #footerTop .input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+}
+
+footer #footerTop .input-group .form-outline input {
+  width: 514px;
+}
+
+footer #footerTop .input-group button {
+  background-color: #16df7e;
+  color: white;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+footer #footerTop .input-group button:hover {
+  background-color: #206bfb;
+}
+
+footer #footerTop ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer #footerTop ul li a {
+  margin-left: 5px;
+}
+
+footer #footerTop ul li a i {
+  font-size: 18px;
+  color: #5f687b;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 4px;
+  width: 36px;
+  height: 36px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: #eaecef;
+  margin-bottom: 80px;
+}
+
+footer #footerTop ul li a i:hover {
+  background-color: #16df7e;
+  color: white;
+}
+
+footer #copyRight ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer #copyRight ul li p strong {
+  font-weight: bold;
+  color: #444444;
+}
+
+footer #copyRight ul li p a {
+  color: #16df7e;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  -webkit-box-shadow: rgba(25, 25, 10, 0.25) 0px 6px 6px -5px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+          box-shadow: rgba(25, 25, 10, 0.25) 0px 6px 6px -5px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+header section .container .row nav .navbar-brand {
+  color: #5f687b;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+
+header section .container .row nav button {
+  color: #5f687b;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+header section .container .row nav .collapse ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #6a7489;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+header section .container .row nav .collapse ul li a:hover {
+  color: #14c871;
+}
+
+header section .container .row nav .collapse ul li .startBtn {
+  padding: 10px 25px;
+  margin-left: 30px;
+  margin-top: 5px;
+  border-radius: 4px;
+  line-height: 1;
+  color: #5f687b;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid #cdd1d9;
+}
+
+header section .container .row nav .collapse ul li .startBtn:hover {
+  color: #fff;
+  background-color: #0d6efd;
+}
+
+header section .container .row nav .collapse ul li .active {
+  color: #14c871;
+}
+
+#contact .container .contactUp {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#contact .container .contactUp h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #5f687b;
+}
+
+#contact .container .contactUp p {
+  color: #444444;
+}
+
+#contact .container .contactDown .contactLeft {
+  border-top: 3px solid #16df7e;
+  border-bottom: 3px solid #16df7e;
+  padding: 30px;
+  background-color: #f9f9fa;
+  width: 450px;
+  margin-right: 20px;
+}
+
+#contact .container .contactDown .contactLeft ul li ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact .container .contactDown .contactLeft ul li ul li {
+  margin-bottom: 20px;
+}
+
+#contact .container .contactDown .contactLeft ul li ul li i {
+  font-size: 20px;
+  color: #16df7e;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50px;
+  margin-right: 20px;
+  cursor: pointer;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+#contact .container .contactDown .contactLeft ul li ul li i:hover {
+  background-color: #16df7e;
+  color: white;
+}
+
+#contact .container .contactDown .contactRight {
+  border-top: 3px solid #16df7e;
+  border-bottom: 3px solid #16df7e;
+  padding: 30px;
+  background-color: #f9f9fa;
+  width: 665px;
+}
+
+#contact .container .contactDown .contactRight form .contactBtn {
+  text-align: center;
+}
+
+#contact .container .contactDown .contactRight form .contactBtn a {
+  background-color: #16df7e;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+#contact .container .contactDown .contactRight form .contactBtn a:hover {
+  background: #206bfb;
+}
+
+#fServices .container .row .fBox {
+  margin-right: 15px;
+  width: 360px;
+  height: 235.6px;
+  background-color: #f9f9fa;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#fServices .container .row .fBox i {
+  color: #16df7e;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+#fServices .container .row .fBox h4 {
+  margin-bottom: 15px;
+}
+
+#fServices .container .row .fBox h4 a {
+  color: #5f687b;
+  font-weight: 600;
+  font-size: 18px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#fServices .container .row .fBox h4 a:hover {
+  color: #16df7e;
+}
+
+#fServices .container .row .fBox p {
+  padding-right: 20px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+#hero .container .row .heroLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#hero .container .row .heroLeft h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #3e4450;
+  margin-bottom: 10px;
+}
+
+#hero .container .row .heroLeft p {
+  color: #858ea1;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#hero .container .row .heroLeft ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#hero .container .row .heroLeft ul li a {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  padding: 8px 30px 10px 30px;
+  margin-top: 5px;
+  border-radius: 4px;
+  line-height: 1;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #16df7e;
+}
+
+#hero .container .row .heroLeft ul li a:hover {
+  background-color: #0d6efd;
+}
+
+#hero .container .row .heroLeft ul .playBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#hero .container .row .heroLeft ul .playBtn i {
+  cursor: pointer;
+  color: #949cac;
+  font-size: 32px;
+  line-height: 0;
+  margin-right: 8px;
+  margin-left: 20px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#hero .container .row .heroLeft ul .playBtn i:hover {
+  color: #16df7e;
+}
+
+#hero .container .row .heroLeft ul .playBtn span {
+  cursor: pointer;
+  font-size: 16px;
+  color: #5f687b;
+}
+
+#hero .container .row .heroRight img {
+  width: 546px;
+  height: 513px;
+}
+
+#services {
+  background-color: #f9f9fa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 906px;
+  width: 100%;
+}
+
+#services .container .ServicesUp {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#services .container .ServicesUp h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #5f687b;
+}
+
+#services .container .ServicesUp p {
+  color: #444444;
+}
+
+#services .ServicesDown .ServiceBox {
+  margin-right: 7px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 369px;
+  height: 309.8px;
+  color: #5f687b;
+  background-color: white;
+  border-radius: 4px;
+  border: 2px solid white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#services .ServicesDown .ServiceBox i {
+  color: #16df7e;
+  font-size: 36px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#services .ServicesDown .ServiceBox a h3 {
+  margin-bottom: 10px;
+  color: #5f687b;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#services .ServicesDown .ServiceBox a h3:hover {
+  color: #16df7e;
+}
+
+#services .ServicesDown .ServiceBox p {
+  padding: 0px 30px;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+#team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f9f9fa;
+  height: 847.5px;
+}
+
+#team .container .teamUp {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#team .container .teamUp h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #5f687b;
+}
+
+#team .container .teamUp p {
+  color: #444444;
+}
+
+#team .container .teamDown .teamBoxs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 370px;
+  height: 575.1px;
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+#team .container .teamDown .teamBoxs .teamBox {
+  text-align: center;
+}
+
+#team .container .teamDown .teamBoxs .teamBox img {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 316px;
+  height: 316px;
+}
+
+#team .container .teamDown .teamBoxs .teamBox h4 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+#team .container .teamDown .teamBoxs .teamBox span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+#team .container .teamDown .teamBoxs .teamBox p {
+  padding-top: 10px;
+  font-size: 14px;
+  font-style: italic;
+  color: #aaaaaa;
+  margin-bottom: 15px;
+}
+
+#team .container .teamDown .teamBoxs .teamBox ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#team .container .teamDown .teamBoxs .teamBox ul li a {
+  margin-left: 10px;
+}
+
+#team .container .teamDown .teamBoxs .teamBox ul li a i {
+  color: #919191;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 20px;
+  margin: 0 2px;
+}
+
+#team .container .teamDown .teamBoxs .teamBox ul li a i:hover {
+  color: #14c871;
+}
+/*# sourceMappingURL=style.css.map */

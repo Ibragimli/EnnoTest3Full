@@ -1,0 +1,86 @@
+﻿@model TeamViewModel
+@{
+    ViewData["Title"] = "Index";
+    int count = (Model.PagenatedTeams.PageIndex - 1) * ViewBag.PageSize;
+}
+
+<h1>Index</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Level</th>
+            <th>Desc</th>
+            <th>Image</th>
+            <th>Action</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var team in Model.PagenatedTeams)
+        {
+            count++;
+            <tr>
+                <td>
+                    @count
+                </td>
+                <td>
+                    @team.Name
+                </td>
+                <td>
+                    @team.Level
+
+                </td>
+                <td>
+                    @team.Desc
+                </td>
+                <td>
+                    <img src="~/uploads/teams/@team.Image" width="200" height="150" />
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@team.Id" class="btn btn-primary">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@team.Id" class="btn btn-danger deleteBtn">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="container">
+    <div class="row">
+        <nav aria-label="...">
+            <ul class="pagination">
+                @if (Model.PagenatedTeams.HasPrev)
+                {
+                    <li class="page-item">
+                        <a class="page-link" asp-action="index" asp-controller="team" asp-route-page="@(Model.PagenatedTeams.PageIndex-1)">Previous</a>
+                    </li>
+                }
+                @for (int i = 1; i < Model.PagenatedTeams.TotalPages + 1; i++)
+                {
+                    <li class="page-item @(Model.PagenatedTeams.PageIndex ==i?("active"):(""))" aria-current="page">
+                        <a class="page-link" asp-action="index" asp-controller="team" asp-route-page="@i">@i</a>
+                    </li>
+                    
+                }
+                @if (Model.PagenatedTeams.HasNext)
+                {
+                    <li class="page-item">
+                        <a class="page-link" asp-action="index" asp-controller="team" asp-route-page="@(Model.PagenatedTeams.PageIndex+1)">Next</a>
+                    </li>
+                }
+            </ul>
+        </nav>
+
+    </div>
+
+</div>
+
+@section Scripts{
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+}

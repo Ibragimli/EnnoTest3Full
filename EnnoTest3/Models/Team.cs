@@ -15,5 +15,8 @@ namespace EnnoTest3.Models
         public string Image { get; set; }
         [NotMapped]
         public IFormFile ImageFile { get; set; }
+
+
+        public string TwitterUrl { get; set; }
     }
 }
